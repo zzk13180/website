@@ -1,0 +1,59 @@
+.link {
+  color: var(--color-link);
+  display: inline-block;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.link:hover {
+  filter: brightness(1.1);
+  text-decoration: underline;
+}
+
+.contact {
+  width: 100%;
+  position: relative;
+  top: 66px;
+}
+
+.contact-blockquote {
+  margin: 0px;
+  color: rgb(120, 119, 116);
+  fill: rgb(120, 119, 116);
+  display: flex;
+}
+
+.contact-info-box {
+  border-left: 3px solid var(--color-bg-secondary);
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 100%;
+}
+
+.contact-info {
+  float: left;
+  width: 133px;
+  text-align: center;
+  font-weight: 500;
+  margin: 10px 33px;
+}
+
+.qr_code {
+  background-color: #fff;
+  font-size: 0;
+  text-align: center;
+  width: 133px;
+  height: 133px;
+  box-sizing: border-box;
+  border: 1px solid var(--color-bg-secondary);
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.contact-info-des {
+  position: relative;
+  top: -5px;
+  left: 1px;
+}

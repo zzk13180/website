@@ -1,0 +1,112 @@
+:root {
+  --color-bg: white;
+  --color-bg-secondary: #d5d5db;
+  --color-link: #526ecc;
+  --color-secondary: #920de9;
+  --color-shadow: #f4f4f4;
+  --color-text: #1d1d1f;
+  --brand_blue: #00aeec;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #333;
+    --color-bg-secondary: #555;
+    --color-link: #526ecc;
+    --color-secondary: #e20de9;
+    --color-shadow: #bbbbbb20;
+    --color-text: rgba(255, 255, 255, 0.92);
+    --brand_blue: #00aeec;
+  }
+  .logo {
+    filter: invert(1) hue-rotate(0.5turn);
+  }
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+footer,
+header,
+main {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 3rem 1rem;
+}
+
+hr {
+  background-color: var(--color-bg-secondary);
+  border: none;
+  height: 1px;
+  margin: 4rem 0;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+header nav img {
+  margin: 1rem 0;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  justify-content: space-between;
+  margin-bottom: 7rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
+  position: relative;
+  text-align: left;
+}
+
+nav ul li ul li,
+nav ul li ul li a {
+  display: block;
+}
+
+h2 {
+  line-height: 1.5;
+}
+
+ul li {
+  padding: 0.2rem 0;
+}
+
+p {
+  margin: 0.75rem 0;
+  padding: 0;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section header {
+  padding-top: 0;
+  width: 100%;
+}
+
+section img {
+  max-width: 100%;
+}

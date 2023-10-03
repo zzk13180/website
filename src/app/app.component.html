@@ -1,0 +1,66 @@
+<header>
+  <nav>
+    <div class="logo">
+      <img
+        alt="logo"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABmJLR0QA/wD/AP+gvaeTAAABoElEQVRoge2aMUoDQRSGPzUWqSRYWKhgb6lYWhs9gK29ab2CrQdII+gFhGjjKbyAksTKwhQ2gpBYzC6EYOLM5GWyDP8Hy4Zl5/3vnxnYzOOBEEIIIarMGfAOjDyvN6BpoHtaxPLV7Rvp0g8QHRefl5BJLq/ef0FXPYR3IpJdiRgzyTBizK6BbvAsvwInBrrNIlao/kx8VmIyiMXqWRKUn8+WzgoZzh0Zzh0Zzh0Zzh0Zzp1Uhq+Bzz/09nFHugdgPUUiqQzXgcbEs23gCfgCLoCfFIksa0tv4MzWcJWNQSrhWiqhMepAB9gDjoFuSvHUhteAe+AIVyt7SazvRVBFYQo3xdh2cX+2SQ2wyc88YGl4CDwWvy8tkqPihlu4EkwH+AYOK5KfecDScPlVaOAKdF1gM2V+y/osDYBzYAu4pWKFwUWscEmreH4VnV1Ft/S0v5YAd8AHcBAZW3XpWS/rtJQ7Mpw7Mpw7Mpw7Mpw7MuxB1fq0zAntohnheqzmpRepPROfFY5J3mLmY05lFg1xNAnrxltWn1bPSFcIIYQQC+IXy+7xuh4abtIAAAAASUVORK5CYII="
+      />
+    </div>
+    <ul>
+      <li>Home</li>
+      <li><a class="link" href="#Projects">Projects</a></li>
+      <li><a class="link" href="#About">About</a></li>
+    </ul>
+  </nav>
+  <h2>张占魁的个人网站</h2>
+  <p>Zhang Zhankui's Personal Website</p>
+</header>
+<main>
+  <hr />
+  <section id="Projects">
+    <header>
+      <h2>My Projects</h2>
+      <p>Free and Open Source Software</p>
+    </header>
+    <div class="mat-typography">
+      <router-outlet></router-outlet>
+    </div>
+  </section>
+  <hr />
+  <section id="About">
+    <span>"Hey!"</span>
+    <div class="contact">
+      <blockquote class="contact-blockquote">
+        <div class="contact-info-box">
+          <div class="contact-info">
+            <span class="contact-info-des">加我微信</span>
+            <div class="qr_code">
+              <img alt="qr_code" src="https://cdn.zhangzhankui.com/1.jfif" />
+            </div>
+          </div>
+          <div class="contact-info">
+            <span class="contact-info-des">打赏我</span>
+            <div class="qr_code">
+              <img alt="qr_code" src="https://cdn.zhangzhankui.com/2.jfif" />
+            </div>
+          </div>
+          <div class="contact-info nowrap">
+            <span class="contact-info-des">buy me a coffee</span>
+            <div class="qr_code">
+              <img alt="qr_code" src="https://cdn.zhangzhankui.com/3.png" />
+            </div>
+          </div>
+        </div>
+      </blockquote>
+    </div>
+  </section>
+</main>
+<footer>
+  <hr />
+  <p>
+    <a class="link" href="https://beian.miit.gov.cn/" target="_blank">
+      冀ICP备19000051号
+    </a>
+    <br />
+  </p>
+</footer>
