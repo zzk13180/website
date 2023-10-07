@@ -732,3 +732,11 @@ $devui-icon-disabled-color: var(--devui-icon-disabled-color, $devui-disabled-tex
 .fullscreen {
   background-color: var(--color-bg)!important;
 }
+
+d-button {
+  margin-right: 8px;
+}
+
+.card-item {
+  min-width: 222px;
+}
