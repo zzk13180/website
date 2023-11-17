@@ -1,7 +1,7 @@
 :root {
   --color-bg: white;
   --color-bg-secondary: #d5d5db;
-  --color-link: #526ecc;
+  --color-link: #848893;
   --color-secondary: #920de9;
   --color-shadow: #f4f4f4;
   --color-text: #1d1d1f;
@@ -12,7 +12,7 @@
   :root {
     --color-bg: #333;
     --color-bg-secondary: #555;
-    --color-link: #526ecc;
+    --color-link: #848893;
     --color-secondary: #e20de9;
     --color-shadow: #bbbbbb20;
     --color-text: rgba(255, 255, 255, 0.92);
@@ -23,11 +23,14 @@
   }
 }
 
+.font-st {
+  font-family: "宋体";
+}
+
 body {
   background: var(--color-bg);
   color: var(--color-text);
-  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC",
-    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: sans-serif;
   line-height: 1.5;
   margin: 0;
   padding: 0;

@@ -57,3 +57,18 @@
   top: -5px;
   left: 1px;
 }
+
+.beian {
+  font-size: 14px;
+  color: var(--color-link);
+  text-decoration: none;
+  position: relative;
+  img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    position: absolute;
+    top: -4px;
+    left: -8px;
+  }
+}
