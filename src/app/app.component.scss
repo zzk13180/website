@@ -59,16 +59,15 @@
 }
 
 .beian {
-  font-size: 14px;
-  color: var(--color-link);
-  text-decoration: none;
-  position: relative;
+  a {
+    font-size: 14px;
+    color: var(--color-link);
+    text-decoration: none;
+    vertical-align: middle;
+  }
   img {
     width: 20px;
     height: 20px;
     vertical-align: middle;
-    position: absolute;
-    top: -4px;
-    left: -8px;
   }
 }
